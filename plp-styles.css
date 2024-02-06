@@ -1,0 +1,183 @@
+nav {
+	position: relative;
+	top: 0;
+	left: 0;
+	
+}
+
+body {
+background-color: #faf0e6;
+}
+
+header {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	z-index: 1;
+	background-color: black;
+	width: 100%;
+	top: 0;
+	left: 0;
+	
+	height: 100px;
+	
+	
+}
+
+h1 {
+text-align: center;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+li {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+section {
+padding-top: 100px;
+}
+#mission-statement {
+	text-align: center;
+	
+	
+}
+
+.testimonials {
+	
+}
+.card {
+	box-shadow: 0 4px 8px 0 black;
+	transition: .3s;
+	width: 225px;
+}
+
+.card-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+}
+
+.container {
+	text-align: center;
+	
+}
+
+.card-section{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 125px;
+	position: relative;
+	bottom: 25px;
+	
+}
+hr {
+	position: relative;
+	top: 50px;
+
+	border-top: 1px dotted gold;
+	width: 100px;
+}
+.moth { 
+	width: 100px;
+}
+.moon {
+   width: 250px;
+	position: relative;
+	top: 40px;
+}
+
+.review{
+	padding-top: 100px;
+}
+
+.scroll {
+	height: 550px;
+	width: 650px;
+	position: relative;
+	left: 175px;
+	top: 25px;
+	background-color: black;
+	border-radius: 20%;
+	
+
+}
+.review {
+	position: relative;
+	
+	
+
+}
+.video {
+	
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	
+	height: auto;
+}
+
+
+iframe {
+	display: flex;
+	border-style: none;
+	justify-content: center;
+	position: relative;
+	bottom: 295px;
+	background-color: color;
+	
+
+}
+
+.form {
+	position: relative;
+	
+	padding-top: 100px;
+
+}
+
+input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (max-width: 450px) {
+.scroll {
+	width: 500px;
+	height: 450px;
+	position: relative;
+	left: -45px;
+	border-radius: 20%;
+}
+iframe {
+	position: relative;
+	bottom: 250px;
+}
+.card-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.card {
+	margin-top: 25px;
+}
