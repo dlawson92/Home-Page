@@ -1,11 +1,188 @@
+:root {
+
+	--dim-gray: #6D6875;
+	--apricot: #FFCDB2;
+	--melon: #FFB4A2;
+	--salmon-pink: #E5989B;
+	--old-rose: #B5838D;
+	--desert-sand: #E8BAA2;
+}
+
+body {
+font-family: arial;
+color: var(--dim-gray);
+background-color: var(--apricot);
 
 
-img {
-	width: 200px;		
+}
+h1 {
+text-align: center;
+}
+hr {
+border-bottom: 3px dashed var(--dim-gray);
+margin: auto;
+width: 45px;
+border-top: transparent;
+}
+nav {
+position: fixed;
+width: 100%;
+text-align: right;
+padding-right: 10px;
+background-color: var(--dim-gray);
+top: 0;
+left: 0;
+z-index: 5;
+}
+
+nav a {
+color: var(--apricot);
+padding: 10px 30px 10px 10px;
+text-decoration: none;
+}
+nav a:visited{
+color: var(--melon);
+text-decoration: none;
+
+}
+
+nav a:hover {
+color: var(--salmon-pink);
+}
+.welcome {
+position: relative;
+text-align: center;
+top: 15%;
+}
+.page-intro {
+	font-family: 'Brush Script-MT', cursive;
+	font-size: 75px;
+}
+h3 {
+	font-weight: normal;
+}
+#projects p {
+padding-bottom: 100px;
+}
+#projects {
+padding-top: 100px;
+}
+.card-img {
+	width: 250px;
+	position: relative;
+	top: 8%;
+	border: 2px solid var(--dim-gray);
 		}
 		
-.card {
+#projects h1 {
+font-size: 56px;
+font-family: 'Brush Script-MT', cursive;
+}
+
+.card-img.card-two {
+top: 20%;
+}
+
+.card-img.card-three {
+top: 35%;
+}
+.project-tile a {
+color: var(-old-rose);
+text-decoration: none;
+}
+.project-tile {
 	width: 300px;
 	box-shadow: 0 4px 8px 0;
 	height: 400px;
+	margin-bottom: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--desert-sand);
+	border: 5px solid var(--dim-gray);
+
+}
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.container a:visited {
+	color: var(--old-rose);
+	text-decoration: none;
+}
+.container a {
+color: var(--dim-gray);
+text-decoration: none;
+}
+.card-link {
+	position: relative;
+	bottom: -10%;
+	font-size: 24px;
+	}
+.card-link.one {
+	font-size: 24px;
+}
+.card-link.two {
+	position: relative;
+	bottom: -35%;
+}
+
+.card-link.three {
+	position: relative;
+	bottom: -65%;
+}
+
+#welcome-section {
+	height: 100vh;
+	
+}
+#hobbies h1 {
+font-size: 58px;
+font-family: 'Brush Script-MT', cursive;
+
+}
+.crochet img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border-radius: 25%;
+	border: 5px solid var(--dim-gray);
+}
+
+#link h3 {
+	font-family: 'Brush Script-MT', cursive;
+	font-size: 64px;
+	text-align: center;
+}
+#link a {
+font-size: 36px;
+text-decoration: none;
+color: var(--old-rose);
+}
+
+#link {
+text-align: center;
+}
+
+
+section {
+padding-top: 100px;
+padding-bottom: 100px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#credits {
+padding-bottom: 0;
+text-align: center;
+}
+
+@media only screen and (max-width: 300px) {
+	nav a {
+	padding: 10px;
+	}
+
 }
