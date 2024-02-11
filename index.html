@@ -1,37 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<htmlang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="./styles.css">
+<script src="https://kit.fontawesome.com/745f74c427.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<nav>
+	<nav id="navbar">
 		<img>
 		<ul>
-			<li><a href="projects"></a></li>
-			<li><a href=""></a></li>
-			<li><a href=""></a></li>
-		</ul>
+			<a href="#welcome-section">Welcome Section</a>
+			<a href="#projects">Projects</a>
+			<a href="#hobbies">Hobbies</a>
+			<a href="#link">GitHub</a>
+			<a href="#thanks">Thanks</a>
+			<a href="#credits">Credits</a>
 	</nav>
 	<section id="welcome-section">
-		<h1>Welcome to my page!</h1>
+	<div class="welcome">
+		<h1 class="page-intro">Welcome to my page!</h1>
+		<h3>I'm Riley, an aspiring developer.</h3>
+	</div>
+	
 	</section>
+	<hr>
+	
+	
 	<section id="projects">
-		<div id="project-tile" class="container">
-			<div class="card">
-				<img src="https://i.ibb.co/dPmYBNT/9-FC34526-397-E-4-C4-B-ACD2-531-D4-D4-B99-FC.jpg">
-				<a href="./plp-index.html">Product Landing Page</a>
+	<h1>Completed Projects</h1>
+	<p>This portfolio page along with the product landing page are two certification projects I've completed for freeCodeCamp. The other 2 projects (Happy Flappy Penguin and Dragon Repeller) are two assignments completed on freeCodeCamp as part of the curriculum. You can find a list of my current certifications through freeCodeCamp.</p>
+		<div class="container">
+			<div class="project-tile">
+				<img class="card-img card-one" src="https://i.ibb.co/dPmYBNT/9-FC34526-397-E-4-C4-B-ACD2-531-D4-D4-B99-FC.jpg">
+				<a class="card-link one" href="https://dlawson92.github.io/Home-Page/plp-index.html">Product Landing Page</a>
 			</div>
-			<div class="card">
-				<img src="https://i.ibb.co/3szNWd5/0-AD1-D06-D-00-C7-4-D01-8-D9-D-072-AD01-AB8-AA.jpg">
-				<a href="./hfp-index.html">Happy Flappy Penguin</a>
+
+			<div class="project-tile">
+				<img class="card-img card-two" src="https://i.ibb.co/3szNWd5/0-AD1-D06-D-00-C7-4-D01-8-D9-D-072-AD01-AB8-AA.jpg"></img>
+				<a class="card-link two" href="https://dlawson92.github.io/Home-Page/hfp-index.html">Happy FlappyPenguin</a>
 			</div>
-			<div class="card">
-				<img src="https://i.ibb.co/5647wGJ/F2-C566-C8-525-D-4-B08-B06-D-5-C256-A578-E60.jpg">
-				<a href="./dr-index.html">Dragon Repeller</a>
+			<div class="project-tile">
+				<img class="card-img card-three" src="https://i.ibb.co/5647wGJ/F2-C566-C8-525-D-4-B08-B06-D-5-C256-A578-E60.jpg"></img>
+				<a class="card-link three" href="https://dlawson92.github.io/Home-Page/dr-index.html">Dragon Repeller</a></div>
+				
+				
 			</div>
 		</div>
+	</section>
+	<hr>
+	<section id="hobbies">
+	<h1>Hobbies</h1>
+	<div class="crochet">
+		<img src="https://i.ibb.co/Mcdj4P9/A0-FD7-D16-C295-4-AE5-8-C11-65817-A342-DD3.jpg">
+		<h4>My favorite hobbie is crocheting...</h4>
+		<p>I have been crocheting since the age of 18. At this point I would consider myself an advanced crocheter. The picture above is a circular mandala vest (pattern courtesy of The Lavender Chair) that took approximately 40 hours to complete. I've made everything from blankets to clothing to toys, my favorite being small stuffed toys.</p>
+	</div>
+	<div class="coding">
+		<h4>A close second is coding!</h4>
+		<p>I've been studying front end-development for close to a year now, with the aim of becoming a full-stack developer. I have one current certification through freeCodeCamp in HTML and CSS and am currently working towards my certification in Javascript.</p>
+	</div>
+	
+	</section>
+	<hr>
+	<section id="link">
+		<h3>Want to see what I can do?</h3>
+		<a id="profile-link" target="_blank" href="https://www.freecodecamp.org/rileyann"><i class="fa-brands fa-free-code-camp"></i></a>
+	</section>
+	<hr>
+	<section id="thanks">
+	<h4>Thanks are in order!</h4>
+		<p>I'd like to use a few lines to thank a few people, first being my mom who has always supported me in my endeavors. The second person I would like to thank is Cindy, who took me in off the streets when I was homeless and waiting for section 8 to come through. I wouldn't be able to work on my coding (and crocheting) and in turn, work on myself if it hadn't have been for you. The last group of people I'd like to thank is my entire unhoused family. Without them, I never would have made it as far, or become as strong as I have. Thank you to everyone.</p>
+	</section>
+	
+	<section id="credits">
+	<div class="copyright">
+	<p>Copyright 2024-Denisa Lawson</p>
+	<p>Images sourced from: </p>
+	</div>
 	</section>
 </body>
 </html>
